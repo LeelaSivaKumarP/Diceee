@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
         Button rollButton;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.dice4,
                 R.drawable.dice5,
                 R.drawable.dice6};
+        System.out.println(R.drawable.dice1);
 
         rollButton.setOnClickListener(new View.OnClickListener() {
             @Override
